@@ -102,3 +102,11 @@ Use authorized sample data or logs you are permitted to analyze. Do not upload s
 ## Interview explanation
 
 "I built a small SOC triage tool that reads authentication logs, detects possible brute-force sequences using a rolling 10-minute window, and adds IsolationForest outlier signals. I designed an explainable scoring method and visualized alerts in Streamlit. I also wrote automated tests and enabled CI on GitHub. It's an educational prototype, and I documented its false-positive and evaluation limitations."
+
+## Dashboard Screenshots
+
+### Security Monitoring Dashboard
+![SOC Dashboard](docs/screenshots/dashboard.png)
+
+### Threat Detection Results
+![Security Alerts](docs/screenshots/security-alerts.png)
